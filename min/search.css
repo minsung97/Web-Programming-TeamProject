@@ -1,0 +1,122 @@
+.searchall{
+	overflow: auto;
+}
+.choiceall{
+	display: inline;
+}
+.detailall{
+	display: inline;
+}
+form{
+	display: inline;
+}
+.detail{
+	width : 200px;
+}
+.buttonall{
+	display: inline;
+}
+.chartall > input{	
+	display: none;
+}
+.highchartall{
+	width: 300px;
+	overflow: auto;
+}
+.highchart{
+	background-color: orange;
+	text-align: center;
+	width: 96px;
+	float: left;
+	border: 2px solid blue;
+}
+.subchartall{
+	display: block;
+	height: 50px;
+}
+.subchart{
+	display: none;
+	background-color: coral;
+	text-align: center;
+	width: 71px;
+	height: 50px;
+	float: left;
+	border: 2px solid blue;
+}
+.rank{
+	width: 300px;
+	height: 500px;
+}
+.grade1{
+	display: block;
+	height: 100px;
+}
+.grade2{
+	display: block;
+	height: 100px;
+}
+.grade3{
+	display: block;
+	height: 100px;
+}
+.grade4{
+	display: block;
+	height: 100px;
+}
+.grade5{
+	display: block;
+	height: 100px;
+}
+
+input:nth-of-type(1):checked ~ div.chartall>div.highchartall>label:nth-of-type(1)>div.highchart{
+	background-color: white;
+}
+input:nth-of-type(2):checked ~ div.chartall>div.highchartall>label:nth-of-type(2)>div{
+	background-color: white;
+}
+input:nth-of-type(3):checked ~ div.chartall>div.highchartall>label:nth-of-type(3)>div{
+	background-color: white;
+}
+input:nth-of-type(1):checked ~ div.chartall>div.subchartall>div.subchart1>label:nth-of-type(n)>div.subchart{
+	display: block;
+}
+input:nth-of-type(2):checked ~ div.chartall>div.subchartall>div.subchart2>label:nth-of-type(n)>div.subchart{
+	display: block;
+}
+input:nth-of-type(3):checked ~ div.chartall>div.subchartall>div.subchart3>label:nth-of-type(n)>div.subchart{
+	width: 146px;
+	display: block;
+}
+input:nth-of-type(4):checked ~ div.chartall>div.subchartall>div.subchart1>label:nth-of-type(1)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(5):checked ~ div.chartall>div.subchartall>div.subchart1>label:nth-of-type(2)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(6):checked ~ div.chartall>div.subchartall>div.subchart1>label:nth-of-type(3)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(7):checked ~ div.chartall>div.subchartall>div.subchart1>label:nth-of-type(4)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(8):checked ~ div.chartall>div.subchartall>div.subchart2>label:nth-of-type(1)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(9):checked ~ div.chartall>div.subchartall>div.subchart2>label:nth-of-type(2)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(10):checked ~ div.chartall>div.subchartall>div.subchart2>label:nth-of-type(3)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(11):checked ~ div.chartall>div.subchartall>div.subchart2>label:nth-of-type(4)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(12):checked ~ div.chartall>div.subchartall>div.subchart2>label:nth-of-type(1)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(12):checked ~ div.chartall>div.subchartall>div.subchart3>label:nth-of-type(1)>div.subchart{
+	background-color: white;
+}
+input:nth-of-type(13):checked ~ div.chartall>div.subchartall>div.subchart3>label:nth-of-type(2)>div.subchart{
+	background-color: white;
+}

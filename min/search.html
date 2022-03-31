@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="search.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="search.js"></script>
+	</head>
+	<body>
+		<input type ="radio" name = "chart" id = "genrechart" checked="checked">
+		<input type ="radio" name = "chart" id = "agechart">
+		<input type ="radio" name = "chart" id = "genderchart">
+		<input type = "radio" name = "subchart" id = "sfchart" checked="checked">
+		<input type = "radio" name = "subchart" id = "dramachart">
+		<input type = "radio" name = "subchart" id = "hororchart">
+		<input type = "radio" name = "subchart" id = "animationchart">
+		<input type = "radio" name = "subchart" id = "tenchart">
+		<input type = "radio" name = "subchart" id = "twentychart">
+		<input type = "radio" name = "subchart" id = "thirtychart">
+		<input type = "radio" name = "subchart" id = "fortychart">
+		<input type = "radio" name = "subchart" id = "manchart">
+		<input type = "radio" name = "subchart" id = "womanchart">
+
+		<div class = "searchall">
+			<form method ="post" name = "searchform">
+				<div class = "choiceall">
+					<select class = "choice" name = "choiceobj">
+						<option name = "choiceobj" value = "name">제목별</option>
+						<option name = "choiceobj" value = "genre">장르별</option>
+						<option name = "choiceobj" value = "direction">감독별</option>
+					</select>
+				</div>
+				<div class = "detailall">
+					<input class = "detail" name = "detailobj" type = "text" value = "값을 입력하세요">
+				</div>
+			</form>
+			<div class= "buttonall">
+				<button id = "searchbutton">검색</button>
+			</div>
+			<div class = "answer">
+			</div>
+		</div>
+
+		<div class = "chartall">
+			<div class = "highchartall">
+				<label for = "genrechart">
+					<div class = "highchart">장르 차트</div>
+				</label>
+				<label for = "agechart">
+					<div class = "highchart">연령 차트</div>
+				</label>
+				<label for = "genderchart">
+					<div class = "highchart">성별 차트</div>
+				</label>
+			</div>
+			<div class = "subchartall">
+				<div class = "subchart1">
+					<label for ="sfchart">
+						<div class = "subchart">SF 차트</div>
+					</label>
+					<label for ="dramachart">
+						<div class = "subchart">드라마 차트</div>
+					</label>
+					<label for ="hororchart">
+						<div class = "subchart">공포 차트</div>
+					</label>
+					<label for ="animationchart">
+						<div class = "subchart">애니메이션 차트</div>
+					</label>
+				</div>
+				<div class = "subchart2">
+					<label for ="tenchart">
+						<div class = "subchart">10대 차트</div>
+					</label>
+					<label for ="twentychart">
+						<div class = "subchart">20대 차트</div>
+					</label>
+					<label for ="thirtychart">
+						<div class = "subchart">30대 차트</div>
+					</label>
+					<label for ="fortychart">
+						<div class = "subchart">40대 차트</div>
+					</label>
+				</div>
+				<div class = "subchart3">
+					<label for ="manchart">
+						<div class = "subchart">남성 차트</div>
+					</label>
+					<label for ="womanchart">
+						<div class = "subchart">여성 차트</div>
+					</label>
+				</div>
+			</div>
+			<div class = "rank">
+				<div class ="grade1"> 1등</div>
+				<div class ="grade2"> 2등</div>
+				<div class ="grade3"> 3등</div>
+				<div class ="grade4"> 4등</div>
+				<div class ="grade5"> 5등</div>
+			</div>
+		</div>
+	</body>
+</html>

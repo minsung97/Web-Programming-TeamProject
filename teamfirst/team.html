@@ -1,0 +1,1104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="team.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="team.js"></script>
+</head>
+<body>
+	<header>
+	</header>
+	<div id="sideMenu">
+		<div id="logo"><img src="logo.png" alt="logo"></div>
+		<div id="projectTitle"><h2>프로젝트 제목</h2></div>
+		<div id="time">
+			<div id="date"></div>
+			<div id="clock"></div>
+		</div>
+		<div id="menu">
+			<div id="menu_home" class="menu_style">● Home</div>
+			<div id="menu_search" class="menu_style">● Search</div>
+			<div id="menu_info" class="menu_style">● Movie Info</div>
+		</div>
+		<footer id="foot">Web Programming</footer>
+	</div>
+	<div id="main">
+	<div id="home" class="main_part">
+			<div id="mainPoster">
+				<img src="aven.jpg" alt="">
+				<img src="gi.jpg" alt="" class="alt">
+				<img src="pi.jpg" alt="" class="alt">
+			</div>
+			<div id="rankPart">
+			<div id="rankTitle">Ranking</div>
+			<div id="ranking">
+			 <input type ="radio" name = "chart" id = "genrechart" checked="checked">
+      <input type ="radio" name = "chart" id = "agechart">
+      <input type ="radio" name = "chart" id = "genderchart">
+      <input type = "radio" name = "subchart" id = "sfchart" checked="checked">
+      <input type = "radio" name = "subchart" id = "dramachart">
+      <input type = "radio" name = "subchart" id = "hororchart">
+      <input type = "radio" name = "subchart" id = "animationchart">
+      <input type = "radio" name = "subchart" id = "tenchart">
+      <input type = "radio" name = "subchart" id = "twentychart">
+      <input type = "radio" name = "subchart" id = "thirtychart">
+      <input type = "radio" name = "subchart" id = "fortychart">
+      <input type = "radio" name = "subchart" id = "manchart">
+      <input type = "radio" name = "subchart" id = "womanchart">
+      
+      <div class = "chartall">
+         <div class = "highchartall">
+            <label for = "genrechart">
+               <div class = "highchart">장르</div>
+            </label>
+            <label for = "agechart">
+               <div class = "highchart">연령</div>
+            </label>
+            <label for = "genderchart">
+               <div class = "highchart">성별</div>
+            </label>
+         </div>
+         <div class = "subchartall">
+            <div class = "subchart1">
+               <label for ="sfchart">
+                  <div class = "subchart">SF</div>
+               </label>
+               <label for ="dramachart">
+                  <div class = "subchart">드라마</div>
+               </label>
+               <label for ="hororchart">
+                  <div class = "subchart">공포</div>
+               </label>
+               <label for ="animationchart">
+                  <div class = "subchart">애니메이션</div>
+               </label>
+            </div>
+            <div class = "subchart2">
+               <label for ="tenchart">
+                  <div class = "subchart">10대</div>
+               </label>
+               <label for ="twentychart">
+                  <div class = "subchart">20대</div>
+               </label>
+               <label for ="thirtychart">
+                  <div class = "subchart">30대</div>
+               </label>
+               <label for ="fortychart">
+                  <div class = "subchart">40대</div>
+               </label>
+            </div>
+            <div class = "subchart3">
+               <label for ="manchart">
+                  <div class = "subchart" style ="width :182px">남성</div>
+               </label>
+               <label for ="womanchart">
+                  <div class = "subchart" style ="width :182px">여성</div>
+               </label>
+            </div>
+         </div>
+         <div class = "rank">
+            <div class ="grade1"> 1등</div>
+            <div class ="grade2"> 2등</div>
+            <div class ="grade3"> 3등</div>
+            <div class ="grade4"> 4등</div>
+            <div class ="grade5"> 5등</div>
+         </div>
+      </div>
+	</div>
+	</div>
+	</div>
+		<div id="search" class="main_part">
+			<div class = "searchall">
+         <form method ="post" name = "searchform">
+            <div class = "choiceall">
+               <select class = "choice" name = "choiceobj">
+                  <option name = "choiceobj" value = "name">제목별</option>
+                  <option name = "choiceobj" value = "genre">장르별</option>
+                  <option name = "choiceobj" value = "direction">감독별</option>
+               </select>
+            </div>
+            <div class = "detailall">
+               <input class = "detail" name = "detailobj" type = "text" value = "값을 입력하세요">
+            </div>
+         </form>
+         <div class= "buttonall">
+            <button id = "searchbutton">검색</button>
+         </div>
+         <div class = "answer">
+         </div>
+      </div>
+		</div>
+	<div id="movie" class="main_part">
+		<div class="movieData">
+			<div class="movieLine">
+				<div class="moviePosterLine">
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+			</div>
+
+				<!--<div class="movieInfoPart">
+					<div class="movieInfo">
+						<div class="movieInfoLeft">
+							<div class="movieTitle">제목</div>
+							<div class="movieTrailer">예고편1</div>
+						</div>
+						<div class="movieInfoRight">
+							<div class="movieInfoRightTop">
+								<div class="movieDirector">감독</div>
+								<div class="moviePremier">2019-06-05</div>
+							</div>
+							<div class="movieEval">평가</div>
+							<div class="movieReply">댓글</div>
+						</div>
+					</div>
+					<div class="movieInfo">
+						<div class="movieInfoLeft">
+							<div class="movieTitle">제목</div>
+							<div class="movieTrailer">예고편2</div>
+						</div>
+						<div class="movieInfoRight">
+							<div class="movieInfoRightTop">
+								<div class="movieDirector">감독</div>
+								<div class="moviePremier">2019-06-05</div>
+							</div>
+							<div class="movieEval">평가</div>
+							<div class="movieReply">댓글</div>
+						</div>
+					</div>
+					<div class="movieInfo">
+						<div class="movieInfoLeft">
+							<div class="movieTitle">제목</div>
+							<div class="movieTrailer">예고편3</div>
+						</div>
+						<div class="movieInfoRight">
+							<div class="movieInfoRightTop">
+								<div class="movieDirector">감독</div>
+								<div class="moviePremier">2019-06-05</div>
+							</div>
+							<div class="movieEval">평가</div>
+							<div class="movieReply">댓글</div>
+						</div>
+					</div>
+					<div class="movieInfo">
+						<div class="movieInfoLeft">
+							<div class="movieTitle">제목</div>
+							<div class="movieTrailer">예고편4</div>
+						</div>
+						<div class="movieInfoRight">
+							<div class="movieInfoRightTop">
+								<div class="movieDirector">감독</div>
+								<div class="moviePremier">2019-06-05</div>
+							</div>
+							<div class="movieEval">평가</div>
+							<div class="movieReply">댓글</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+		<div class="movieLine">
+				<div class="moviePosterLine">
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+			</div>
+			<div class="movieLine">
+				<div class="moviePosterLine">
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+			</div>
+			<div class="movieLine">
+				<div class="moviePosterLine">
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+			</div>
+			<div class="movieLine">
+				<div class="moviePosterLine">
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+					<div class="moviePoster"><img class="poster" alt="MoviePoster">
+						<div class="movieName"></div>
+						<div class="movieInfo">
+							<button class="movieInfoButton">상세정보</button>
+							<button class="movieEvalButton">평가하기</button>
+						</div>
+					</div>
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+				<div class="Info">
+						<div class="infoTop">
+							<div class="infoTop_left"><img class="poster_in" alt="MoviePoster"></div>
+							<div class="infoTop_right">
+								<div class="infoTop_title">제목</div>
+								<hr size="2">
+								<div class="infoTop_main">정보</div>
+							</div>
+						</div>
+						<div class="infoMiddle">
+								<span class="trailer">예고편</span><span class="article">기사</span>
+							<div class="infoMiddle_trailer"></div>
+							<div class="infoMiddle_article"></div>
+						</div>
+						<div class="infoBottom">
+							<h2>▶댓글</h2>
+							<div class="all_comment"></div>
+							<div class="comment">
+							<input type="text" class="read_name" placeholder="작성자명">
+    							<textarea class="read_comment" cols="60"></textarea>
+   								<input type="button" class="comment_button" value="등록">
+   							</div>
+						</div>
+						<img src="x.png" class="infox">
+				</div>
+				<div class="Evaluate">
+					<input type="radio" name="gender" value="man">남
+                    <input type="radio" name="gender" value="woman">여<br>
+                    <input type="radio" name="age" value="10">10대
+                    <input type="radio" name="age" value="20">20대
+                    <input type="radio" name="age" value="30">30대
+                    <input type="radio" name="age" value="40">40대 이상<br><br>
+                        이 영화<br>
+                    <button class="good"><img src="good.jpg">좋아요</button>
+                    <button class="bad"><img src="bad.jpg">싫어요</button>
+                    <img src="x.png" class="evalx">
+				</div>
+			</div>
+	</div>
+	</div>
+	<div id="chair">
+		<img src="chair.png" width=1068>
+	</div>
+</body>
+</html>
