@@ -1,0 +1,412 @@
+[{
+"number":"0",
+
+"name":"엑스맨 : 다크피닉스",
+
+"genre":"sf",
+
+"director":"사이먼 킨버그",
+
+"date":"06-05",
+
+"poster":"xman.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/PEAGc6qkbYI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "엑스맨.txt",
+
+"news" : "<iframe src='http://news.chosun.com/site/data/html_dir/2019/05/27/2019052701667.html' frameborder='0' scrolling='yes' ></iframe>"
+},
+
+{
+"number":"1",
+
+"name":"로켓맨",
+
+"genre":"drama",
+
+"director":"덱스터 플레쳐",
+
+"date":"06-05",
+
+"poster":"rocketman.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/9HSy7n-wA40' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "로켓맨.txt",
+
+"news" : "<iframe src='https://www.mk.co.kr/star/hot-issues/view/2019/06/421121/' frameborder='0' scrolling='yes' ></iframe>"
+},
+
+{
+"number":"2",
+
+"name":"맨 인 블랙 :인터네셔널",
+
+"genre":"sf",
+
+"director":"게리 그레이",
+
+"date":"06-12",
+
+"poster":"maninblack.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/q88puxM5PmI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "맨인블랙.txt",
+
+"news" : "<iframe src='http://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0002546047&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news' frameborder='0' scrolling='yes' ></iframe>"
+},
+
+{
+"number":"3",
+
+"name":"틴 스피릿",
+
+"genre":"drama",
+
+"director":"맥스 밍겔라",
+
+"date":"06-12",
+
+"poster":"teenspirit.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/aWTqVpKUon8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "틴스피릿.txt",
+
+"news" : "<iframe src='http://www.yeongnam.com/mnews/newsview.do?mode=newsView&newskey=20190614.010420838450001' frameborder='0' scrolling='yes' ></iframe>"
+},
+
+{
+"number":"4",
+
+"name":"블랙 스완 : 흑화",
+
+"genre":"horor",
+
+"director":"브렛 뮬렌",
+
+"date":"06-12",
+
+"poster":"blackswan.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/GBsfIiloNP8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "블랙스완.txt",
+
+"news" : "<iframe src='https://blog.naver.com/iamrealryan/221556254130' frameborder='0' scrolling='yes' ></iframe>"
+},
+
+{
+"number":"5",
+
+"name":"파라노말 액티비티",
+
+"genre":"horor",
+
+"director":"빌리 루이스",
+
+"date":"06-12",
+
+"poster":"paranomar.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/WkI3eScULUE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "파라노말.txt",
+
+"news" : "<iframe src='https://blog.naver.com/opop1777/221553300302' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"6",
+
+"name":"천로역정 : 천국을 찾아서",
+
+"genre":"animation",
+
+"director":"로버트 페르난데스",
+
+"date":"06-13",
+
+"poster":"chunro.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/RJY_q6oH9Tc' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>", 
+
+"review" : "천로역정.txt",
+
+"news" : "<iframe src='https://www.nocutnews.co.kr/news/5168264' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"7",
+
+"name":"세상을 바꾼 변호인",
+
+"genre":"drama",
+
+"director":"미미 레더",
+
+"date":"06-13",
+
+"poster":"worldchange.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/2jawM4Mv55Y' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "세상을바꾼변호인.txt",
+
+"news" : "<iframe src='http://pop.heraldcorp.com/view.php?ud=201906131818336773063_1' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"8",
+
+"name":"블랙 47",
+
+"genre":"sf",
+
+"director":"랜스 데일리",
+
+"date":"06-13",
+
+"poster":"black47.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/6znv9iBGX6w' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "블랙47.txt",
+
+"news" : "<iframe src='http://www.mediafine.co.kr/news/articleView.html?idxno=6279' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"9",
+
+"name":"극장판 오소마츠 6쌍둥이",
+
+"genre":"animation",
+
+"director":"후지타 요이치",
+
+"date":"06-13",
+
+"poster":"osomach.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/JrSsFbY-r4k' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "오소마츠.txt",
+
+"news" : "<iframe src='http://www.pointn.net/news/articleView.html?idxno=10187' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"10",
+
+"name":"노리개 : 그녀의 눈물",
+
+"genre":"drama",
+
+"director":"최승호",
+
+"date":"06-13",
+
+"poster":"norigae.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/hTf-kdBI9sI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "노리개.txt",
+
+"news" : "<iframe src='http://www.pointn.net/news/articleView.html?idxno=10201' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"11",
+
+"name":"스토커 : 할로윈 데이",
+
+"genre":"horor",
+
+"director":"코빈 팀브룩",
+
+"date":"06-13",
+
+"poster":"storker.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/dsq5FuaBdDw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "스토커.txt",
+
+"news" : "<iframe src='https://blog.naver.com/clawfinger00?Redirect=Log&logNo=221517457881' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"12",
+
+"name":"엘리펀트킹 덤보",
+
+"genre":"animation",
+
+"director":"하디 모하메디안",
+
+"date":"06-13",
+
+"poster":"elephantking.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/m8o5dLrGdVE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "덤보.txt",
+
+"news" : "<iframe src='https://blog.naver.com/paulshkim/221562669540' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"13",
+
+"name":"롱 리브 더 킹 : 목포 영웅",
+
+"genre":"drama",
+
+"director":"강윤성",
+
+"date":"06-19",
+
+"poster":"longlive.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/tKIGmBkBAmg' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "목포영웅.txt",
+
+"news" : "<iframe src='http://www.osen.co.kr/article/G1111165991' frameborder='0' scrolling='yes' ></iframe>"
+},
+
+{
+"number":"14",
+
+"name":"사탄의 인형",
+
+"genre":"horor",
+
+"director":"라스 클리브버그",
+
+"date":"06-20",
+
+"poster":"satan.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/7u3IuRnV5RI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "사탄의인형.txt",
+
+"news" : "<iframe src='http://stoo.asiae.co.kr/article.php?aid=55550125338' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"15",
+
+"name":"토이 스토리 4",
+
+"genre":"animation",
+
+"director":"조시 쿨리",
+
+"date":"06-12",
+
+"poster":"toystory.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/8R7XW5NoxlA' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "토이스토리.txt",
+
+"news" : "<iframe src='http://news.khan.co.kr/kh_news/khan_art_view.html?artid=201906181112001&code=960401' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"16",
+
+"name":"하우스 오브 투모로우",
+
+"genre":"drama",
+
+"director":"피터 리볼시",
+
+"date":"06-20",
+
+"poster":"houseof.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/5GdEkiAt9Aw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "투모로우.txt",
+
+"news" : "<iframe src='http://www.newspim.com/news/view/20190617001035' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"17",
+
+"name":"존 윅 3 : 파라벨룸",
+
+"genre":"drama",
+
+"director":"채드 스타헬스키",
+
+"date":"06-26",
+
+"poster":"john.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/nbaFJw8i8jE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "존윅.txt",
+
+"news" : "<iframe src='http://sports.khan.co.kr/entertainment/sk_index.html?art_id=201906180921013&sec_id=540401&pt=nv' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"18",
+
+"name":"애나벨 집으로",
+
+"genre":"horor",
+
+"director":"게리 도버먼",
+
+"date":"06-30",
+
+"poster":"annabelle.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/abmpELhAOqs' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "애나벨.txt",
+
+"news" : "<iframe src='http://stoo.asiae.co.kr/article.php?aid=55551487709' frameborder='0' scrolling='yes' ></iframe>"
+
+},
+
+{
+"number":"19",
+
+"name":"커런트 워",
+
+"genre":"sf",
+
+"director":"알폰소 고메즈",
+
+"date":"06-30",
+
+"poster":"current.jpg",
+
+"trailer" : "<iframe src='https://www.youtube.com/embed/VC03TLL1baE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+
+"review" : "커런트워.txt",
+
+"news" : "<iframe src='http://www.nspna.com/news/?mode=view&newsid=342213' frameborder='0' scrolling='yes' ></iframe>"
+}]
